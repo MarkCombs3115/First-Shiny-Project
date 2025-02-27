@@ -5,7 +5,7 @@ library(DT)  # For interactive tables
 library(readxl)  # To read Excel files
 
 # Load dataset
-basketball_data <- read_excel("~/Personal R Project/Grouped_BBall_data.xlsx")
+basketball_data <- read.csv("https://raw.githubusercontent.com/MarkCombs3115/First-Shiny-Project/refs/heads/main/Grouped_BBall_data.csv")
 
 # Define UI for the application
 ui <- fluidPage(
